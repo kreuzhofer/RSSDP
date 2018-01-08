@@ -1,0 +1,1290 @@
+### YamlMime:ManagedReference
+items:
+- uid: Rssdp.Shared.SsdpHueBridgeDevice
+  commentId: T:Rssdp.Shared.SsdpHueBridgeDevice
+  id: SsdpHueBridgeDevice
+  parent: Rssdp.Shared
+  children:
+  - Rssdp.Shared.SsdpHueBridgeDevice.HttpServerIpAddress
+  - Rssdp.Shared.SsdpHueBridgeDevice.HttpServerOptionalSubFolder
+  - Rssdp.Shared.SsdpHueBridgeDevice.HttpServerPort
+  - Rssdp.Shared.SsdpHueBridgeDevice.HueBridgeId
+  - Rssdp.Shared.SsdpHueBridgeDevice.HueSerialNumber
+  - Rssdp.Shared.SsdpHueBridgeDevice.HueUuid
+  - Rssdp.Shared.SsdpHueBridgeDevice.MacAddress
+  langs:
+  - csharp
+  - vb
+  name: SsdpHueBridgeDevice
+  nameWithType: SsdpHueBridgeDevice
+  fullName: Rssdp.Shared.SsdpHueBridgeDevice
+  type: Class
+  source:
+    id: SsdpHueBridgeDevice
+    path: ''
+    startLine: 7062
+  assemblies:
+  - cs.temp.dll
+  namespace: Rssdp.Shared
+  syntax:
+    content: 'public class SsdpHueBridgeDevice : SsdpRootDevice'
+    content.vb: >-
+      Public Class SsdpHueBridgeDevice
+          Inherits SsdpRootDevice
+  inheritance:
+  - System.Object
+  - Rssdp.SsdpDevice
+  - Rssdp.SsdpRootDevice
+  inheritedMembers:
+  - Rssdp.SsdpRootDevice.CacheLifetime
+  - Rssdp.SsdpRootDevice.Location
+  - Rssdp.SsdpRootDevice.UrlBase
+  - Rssdp.SsdpRootDevice.ToDescriptionDocument
+  - Rssdp.SsdpDevice.DeviceAdded
+  - Rssdp.SsdpDevice.DeviceRemoved
+  - Rssdp.SsdpDevice.ServiceAdded
+  - Rssdp.SsdpDevice.ServiceRemoved
+  - Rssdp.SsdpDevice.DeviceType
+  - Rssdp.SsdpDevice.DeviceTypeNamespace
+  - Rssdp.SsdpDevice.DeviceVersion
+  - Rssdp.SsdpDevice.FullDeviceType
+  - Rssdp.SsdpDevice.Uuid
+  - Rssdp.SsdpDevice.Udn
+  - Rssdp.SsdpDevice.FriendlyName
+  - Rssdp.SsdpDevice.Manufacturer
+  - Rssdp.SsdpDevice.ManufacturerUrl
+  - Rssdp.SsdpDevice.ModelDescription
+  - Rssdp.SsdpDevice.ModelName
+  - Rssdp.SsdpDevice.ModelNumber
+  - Rssdp.SsdpDevice.ModelUrl
+  - Rssdp.SsdpDevice.SerialNumber
+  - Rssdp.SsdpDevice.Upc
+  - Rssdp.SsdpDevice.PresentationUrl
+  - Rssdp.SsdpDevice.Icons
+  - Rssdp.SsdpDevice.Devices
+  - Rssdp.SsdpDevice.CustomProperties
+  - Rssdp.SsdpDevice.CustomResponseHeaders
+  - Rssdp.SsdpDevice.Services
+  - Rssdp.SsdpDevice.AddDevice(Rssdp.SsdpEmbeddedDevice)
+  - Rssdp.SsdpDevice.RemoveDevice(Rssdp.SsdpEmbeddedDevice)
+  - Rssdp.SsdpDevice.OnDeviceAdded(Rssdp.SsdpEmbeddedDevice)
+  - Rssdp.SsdpDevice.OnDeviceRemoved(Rssdp.SsdpEmbeddedDevice)
+  - Rssdp.SsdpDevice.AddService(Rssdp.SsdpService)
+  - Rssdp.SsdpDevice.RemoveService(Rssdp.SsdpService)
+  - Rssdp.SsdpDevice.OnServiceAdded(Rssdp.SsdpService)
+  - Rssdp.SsdpDevice.OnServiceRemoved(Rssdp.SsdpService)
+  - Rssdp.SsdpDevice.WriteDeviceDescriptionXml(XmlWriter,Rssdp.SsdpDevice)
+  - Rssdp.SsdpDevice.StringToUri(System.String)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Rssdp.Shared.SsdpHueBridgeDevice.HttpServerIpAddress
+  commentId: P:Rssdp.Shared.SsdpHueBridgeDevice.HttpServerIpAddress
+  id: HttpServerIpAddress
+  parent: Rssdp.Shared.SsdpHueBridgeDevice
+  langs:
+  - csharp
+  - vb
+  name: HttpServerIpAddress
+  nameWithType: SsdpHueBridgeDevice.HttpServerIpAddress
+  fullName: Rssdp.Shared.SsdpHueBridgeDevice.HttpServerIpAddress
+  type: Property
+  source:
+    id: HttpServerIpAddress
+    path: ''
+    startLine: 7097
+  assemblies:
+  - cs.temp.dll
+  namespace: Rssdp.Shared
+  summary: "\nThe ip address of the local http servers network interface where the hue bridge api ist hosted\n"
+  example: []
+  syntax:
+    content: public string HttpServerIpAddress { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property HttpServerIpAddress As String
+  overload: Rssdp.Shared.SsdpHueBridgeDevice.HttpServerIpAddress*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Rssdp.Shared.SsdpHueBridgeDevice.HttpServerPort
+  commentId: P:Rssdp.Shared.SsdpHueBridgeDevice.HttpServerPort
+  id: HttpServerPort
+  parent: Rssdp.Shared.SsdpHueBridgeDevice
+  langs:
+  - csharp
+  - vb
+  name: HttpServerPort
+  nameWithType: SsdpHueBridgeDevice.HttpServerPort
+  fullName: Rssdp.Shared.SsdpHueBridgeDevice.HttpServerPort
+  type: Property
+  source:
+    id: HttpServerPort
+    path: ''
+    startLine: 7098
+  assemblies:
+  - cs.temp.dll
+  namespace: Rssdp.Shared
+  syntax:
+    content: public string HttpServerPort { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property HttpServerPort As String
+  overload: Rssdp.Shared.SsdpHueBridgeDevice.HttpServerPort*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Rssdp.Shared.SsdpHueBridgeDevice.HttpServerOptionalSubFolder
+  commentId: P:Rssdp.Shared.SsdpHueBridgeDevice.HttpServerOptionalSubFolder
+  id: HttpServerOptionalSubFolder
+  parent: Rssdp.Shared.SsdpHueBridgeDevice
+  langs:
+  - csharp
+  - vb
+  name: HttpServerOptionalSubFolder
+  nameWithType: SsdpHueBridgeDevice.HttpServerOptionalSubFolder
+  fullName: Rssdp.Shared.SsdpHueBridgeDevice.HttpServerOptionalSubFolder
+  type: Property
+  source:
+    id: HttpServerOptionalSubFolder
+    path: ''
+    startLine: 7100
+  assemblies:
+  - cs.temp.dll
+  namespace: Rssdp.Shared
+  syntax:
+    content: public string HttpServerOptionalSubFolder { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property HttpServerOptionalSubFolder As String
+  overload: Rssdp.Shared.SsdpHueBridgeDevice.HttpServerOptionalSubFolder*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Rssdp.Shared.SsdpHueBridgeDevice.MacAddress
+  commentId: P:Rssdp.Shared.SsdpHueBridgeDevice.MacAddress
+  id: MacAddress
+  parent: Rssdp.Shared.SsdpHueBridgeDevice
+  langs:
+  - csharp
+  - vb
+  name: MacAddress
+  nameWithType: SsdpHueBridgeDevice.MacAddress
+  fullName: Rssdp.Shared.SsdpHueBridgeDevice.MacAddress
+  type: Property
+  source:
+    id: MacAddress
+    path: ''
+    startLine: 7106
+  assemblies:
+  - cs.temp.dll
+  namespace: Rssdp.Shared
+  syntax:
+    content: public string MacAddress { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MacAddress As String
+  overload: Rssdp.Shared.SsdpHueBridgeDevice.MacAddress*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Rssdp.Shared.SsdpHueBridgeDevice.HueBridgeId
+  commentId: P:Rssdp.Shared.SsdpHueBridgeDevice.HueBridgeId
+  id: HueBridgeId
+  parent: Rssdp.Shared.SsdpHueBridgeDevice
+  langs:
+  - csharp
+  - vb
+  name: HueBridgeId
+  nameWithType: SsdpHueBridgeDevice.HueBridgeId
+  fullName: Rssdp.Shared.SsdpHueBridgeDevice.HueBridgeId
+  type: Property
+  source:
+    id: HueBridgeId
+    path: ''
+    startLine: 7108
+  assemblies:
+  - cs.temp.dll
+  namespace: Rssdp.Shared
+  syntax:
+    content: public string HueBridgeId { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property HueBridgeId As String
+  overload: Rssdp.Shared.SsdpHueBridgeDevice.HueBridgeId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Rssdp.Shared.SsdpHueBridgeDevice.HueSerialNumber
+  commentId: P:Rssdp.Shared.SsdpHueBridgeDevice.HueSerialNumber
+  id: HueSerialNumber
+  parent: Rssdp.Shared.SsdpHueBridgeDevice
+  langs:
+  - csharp
+  - vb
+  name: HueSerialNumber
+  nameWithType: SsdpHueBridgeDevice.HueSerialNumber
+  fullName: Rssdp.Shared.SsdpHueBridgeDevice.HueSerialNumber
+  type: Property
+  source:
+    id: HueSerialNumber
+    path: ''
+    startLine: 7119
+  assemblies:
+  - cs.temp.dll
+  namespace: Rssdp.Shared
+  syntax:
+    content: public string HueSerialNumber { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property HueSerialNumber As String
+  overload: Rssdp.Shared.SsdpHueBridgeDevice.HueSerialNumber*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Rssdp.Shared.SsdpHueBridgeDevice.HueUuid
+  commentId: P:Rssdp.Shared.SsdpHueBridgeDevice.HueUuid
+  id: HueUuid
+  parent: Rssdp.Shared.SsdpHueBridgeDevice
+  langs:
+  - csharp
+  - vb
+  name: HueUuid
+  nameWithType: SsdpHueBridgeDevice.HueUuid
+  fullName: Rssdp.Shared.SsdpHueBridgeDevice.HueUuid
+  type: Property
+  source:
+    id: HueUuid
+    path: ''
+    startLine: 7129
+  assemblies:
+  - cs.temp.dll
+  namespace: Rssdp.Shared
+  syntax:
+    content: public string HueUuid { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property HueUuid As String
+  overload: Rssdp.Shared.SsdpHueBridgeDevice.HueUuid*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: Rssdp.Shared
+  commentId: N:Rssdp.Shared
+  isExternal: false
+  name: Rssdp.Shared
+  nameWithType: Rssdp.Shared
+  fullName: Rssdp.Shared
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Rssdp.SsdpDevice
+  commentId: T:Rssdp.SsdpDevice
+  parent: Rssdp
+  isExternal: false
+  name: SsdpDevice
+  nameWithType: SsdpDevice
+  fullName: Rssdp.SsdpDevice
+- uid: Rssdp.SsdpRootDevice
+  commentId: T:Rssdp.SsdpRootDevice
+  parent: Rssdp
+  isExternal: false
+  name: SsdpRootDevice
+  nameWithType: SsdpRootDevice
+  fullName: Rssdp.SsdpRootDevice
+- uid: Rssdp.SsdpRootDevice.CacheLifetime
+  commentId: P:Rssdp.SsdpRootDevice.CacheLifetime
+  parent: Rssdp.SsdpRootDevice
+  isExternal: false
+  name: CacheLifetime
+  nameWithType: SsdpRootDevice.CacheLifetime
+  fullName: Rssdp.SsdpRootDevice.CacheLifetime
+- uid: Rssdp.SsdpRootDevice.Location
+  commentId: P:Rssdp.SsdpRootDevice.Location
+  parent: Rssdp.SsdpRootDevice
+  isExternal: false
+  name: Location
+  nameWithType: SsdpRootDevice.Location
+  fullName: Rssdp.SsdpRootDevice.Location
+- uid: Rssdp.SsdpRootDevice.UrlBase
+  commentId: P:Rssdp.SsdpRootDevice.UrlBase
+  parent: Rssdp.SsdpRootDevice
+  isExternal: false
+  name: UrlBase
+  nameWithType: SsdpRootDevice.UrlBase
+  fullName: Rssdp.SsdpRootDevice.UrlBase
+- uid: Rssdp.SsdpRootDevice.ToDescriptionDocument
+  commentId: M:Rssdp.SsdpRootDevice.ToDescriptionDocument
+  parent: Rssdp.SsdpRootDevice
+  isExternal: false
+  name: ToDescriptionDocument()
+  nameWithType: SsdpRootDevice.ToDescriptionDocument()
+  fullName: Rssdp.SsdpRootDevice.ToDescriptionDocument()
+  spec.csharp:
+  - uid: Rssdp.SsdpRootDevice.ToDescriptionDocument
+    name: ToDescriptionDocument
+    nameWithType: SsdpRootDevice.ToDescriptionDocument
+    fullName: Rssdp.SsdpRootDevice.ToDescriptionDocument
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Rssdp.SsdpRootDevice.ToDescriptionDocument
+    name: ToDescriptionDocument
+    nameWithType: SsdpRootDevice.ToDescriptionDocument
+    fullName: Rssdp.SsdpRootDevice.ToDescriptionDocument
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Rssdp.SsdpDevice.DeviceAdded
+  commentId: E:Rssdp.SsdpDevice.DeviceAdded
+  parent: Rssdp.SsdpDevice
+  isExternal: false
+  name: DeviceAdded
+  nameWithType: SsdpDevice.DeviceAdded
+  fullName: Rssdp.SsdpDevice.DeviceAdded
+- uid: Rssdp.SsdpDevice.DeviceRemoved
+  commentId: E:Rssdp.SsdpDevice.DeviceRemoved
+  parent: Rssdp.SsdpDevice
+  isExternal: false
+  name: DeviceRemoved
+  nameWithType: SsdpDevice.DeviceRemoved
+  fullName: Rssdp.SsdpDevice.DeviceRemoved
+- uid: Rssdp.SsdpDevice.ServiceAdded
+  commentId: E:Rssdp.SsdpDevice.ServiceAdded
+  parent: Rssdp.SsdpDevice
+  isExternal: false
+  name: ServiceAdded
+  nameWithType: SsdpDevice.ServiceAdded
+  fullName: Rssdp.SsdpDevice.ServiceAdded
+- uid: Rssdp.SsdpDevice.ServiceRemoved
+  commentId: E:Rssdp.SsdpDevice.ServiceRemoved
+  parent: Rssdp.SsdpDevice
+  isExternal: false
+  name: ServiceRemoved
+  nameWithType: SsdpDevice.ServiceRemoved
+  fullName: Rssdp.SsdpDevice.ServiceRemoved
+- uid: Rssdp.SsdpDevice.DeviceType
+  commentId: P:Rssdp.SsdpDevice.DeviceType
+  parent: Rssdp.SsdpDevice
+  isExternal: false
+  name: DeviceType
+  nameWithType: SsdpDevice.DeviceType
+  fullName: Rssdp.SsdpDevice.DeviceType
+- uid: Rssdp.SsdpDevice.DeviceTypeNamespace
+  commentId: P:Rssdp.SsdpDevice.DeviceTypeNamespace
+  parent: Rssdp.SsdpDevice
+  isExternal: false
+  name: DeviceTypeNamespace
+  nameWithType: SsdpDevice.DeviceTypeNamespace
+  fullName: Rssdp.SsdpDevice.DeviceTypeNamespace
+- uid: Rssdp.SsdpDevice.DeviceVersion
+  commentId: P:Rssdp.SsdpDevice.DeviceVersion
+  parent: Rssdp.SsdpDevice
+  isExternal: false
+  name: DeviceVersion
+  nameWithType: SsdpDevice.DeviceVersion
+  fullName: Rssdp.SsdpDevice.DeviceVersion
+- uid: Rssdp.SsdpDevice.FullDeviceType
+  commentId: P:Rssdp.SsdpDevice.FullDeviceType
+  parent: Rssdp.SsdpDevice
+  isExternal: false
+  name: FullDeviceType
+  nameWithType: SsdpDevice.FullDeviceType
+  fullName: Rssdp.SsdpDevice.FullDeviceType
+- uid: Rssdp.SsdpDevice.Uuid
+  commentId: P:Rssdp.SsdpDevice.Uuid
+  parent: Rssdp.SsdpDevice
+  isExternal: false
+  name: Uuid
+  nameWithType: SsdpDevice.Uuid
+  fullName: Rssdp.SsdpDevice.Uuid
+- uid: Rssdp.SsdpDevice.Udn
+  commentId: P:Rssdp.SsdpDevice.Udn
+  parent: Rssdp.SsdpDevice
+  isExternal: false
+  name: Udn
+  nameWithType: SsdpDevice.Udn
+  fullName: Rssdp.SsdpDevice.Udn
+- uid: Rssdp.SsdpDevice.FriendlyName
+  commentId: P:Rssdp.SsdpDevice.FriendlyName
+  parent: Rssdp.SsdpDevice
+  isExternal: false
+  name: FriendlyName
+  nameWithType: SsdpDevice.FriendlyName
+  fullName: Rssdp.SsdpDevice.FriendlyName
+- uid: Rssdp.SsdpDevice.Manufacturer
+  commentId: P:Rssdp.SsdpDevice.Manufacturer
+  parent: Rssdp.SsdpDevice
+  isExternal: false
+  name: Manufacturer
+  nameWithType: SsdpDevice.Manufacturer
+  fullName: Rssdp.SsdpDevice.Manufacturer
+- uid: Rssdp.SsdpDevice.ManufacturerUrl
+  commentId: P:Rssdp.SsdpDevice.ManufacturerUrl
+  parent: Rssdp.SsdpDevice
+  isExternal: false
+  name: ManufacturerUrl
+  nameWithType: SsdpDevice.ManufacturerUrl
+  fullName: Rssdp.SsdpDevice.ManufacturerUrl
+- uid: Rssdp.SsdpDevice.ModelDescription
+  commentId: P:Rssdp.SsdpDevice.ModelDescription
+  parent: Rssdp.SsdpDevice
+  isExternal: false
+  name: ModelDescription
+  nameWithType: SsdpDevice.ModelDescription
+  fullName: Rssdp.SsdpDevice.ModelDescription
+- uid: Rssdp.SsdpDevice.ModelName
+  commentId: P:Rssdp.SsdpDevice.ModelName
+  parent: Rssdp.SsdpDevice
+  isExternal: false
+  name: ModelName
+  nameWithType: SsdpDevice.ModelName
+  fullName: Rssdp.SsdpDevice.ModelName
+- uid: Rssdp.SsdpDevice.ModelNumber
+  commentId: P:Rssdp.SsdpDevice.ModelNumber
+  parent: Rssdp.SsdpDevice
+  isExternal: false
+  name: ModelNumber
+  nameWithType: SsdpDevice.ModelNumber
+  fullName: Rssdp.SsdpDevice.ModelNumber
+- uid: Rssdp.SsdpDevice.ModelUrl
+  commentId: P:Rssdp.SsdpDevice.ModelUrl
+  parent: Rssdp.SsdpDevice
+  isExternal: false
+  name: ModelUrl
+  nameWithType: SsdpDevice.ModelUrl
+  fullName: Rssdp.SsdpDevice.ModelUrl
+- uid: Rssdp.SsdpDevice.SerialNumber
+  commentId: P:Rssdp.SsdpDevice.SerialNumber
+  parent: Rssdp.SsdpDevice
+  isExternal: false
+  name: SerialNumber
+  nameWithType: SsdpDevice.SerialNumber
+  fullName: Rssdp.SsdpDevice.SerialNumber
+- uid: Rssdp.SsdpDevice.Upc
+  commentId: P:Rssdp.SsdpDevice.Upc
+  parent: Rssdp.SsdpDevice
+  isExternal: false
+  name: Upc
+  nameWithType: SsdpDevice.Upc
+  fullName: Rssdp.SsdpDevice.Upc
+- uid: Rssdp.SsdpDevice.PresentationUrl
+  commentId: P:Rssdp.SsdpDevice.PresentationUrl
+  parent: Rssdp.SsdpDevice
+  isExternal: false
+  name: PresentationUrl
+  nameWithType: SsdpDevice.PresentationUrl
+  fullName: Rssdp.SsdpDevice.PresentationUrl
+- uid: Rssdp.SsdpDevice.Icons
+  commentId: P:Rssdp.SsdpDevice.Icons
+  parent: Rssdp.SsdpDevice
+  isExternal: false
+  name: Icons
+  nameWithType: SsdpDevice.Icons
+  fullName: Rssdp.SsdpDevice.Icons
+- uid: Rssdp.SsdpDevice.Devices
+  commentId: P:Rssdp.SsdpDevice.Devices
+  parent: Rssdp.SsdpDevice
+  isExternal: false
+  name: Devices
+  nameWithType: SsdpDevice.Devices
+  fullName: Rssdp.SsdpDevice.Devices
+- uid: Rssdp.SsdpDevice.CustomProperties
+  commentId: P:Rssdp.SsdpDevice.CustomProperties
+  parent: Rssdp.SsdpDevice
+  isExternal: false
+  name: CustomProperties
+  nameWithType: SsdpDevice.CustomProperties
+  fullName: Rssdp.SsdpDevice.CustomProperties
+- uid: Rssdp.SsdpDevice.CustomResponseHeaders
+  commentId: P:Rssdp.SsdpDevice.CustomResponseHeaders
+  parent: Rssdp.SsdpDevice
+  isExternal: false
+  name: CustomResponseHeaders
+  nameWithType: SsdpDevice.CustomResponseHeaders
+  fullName: Rssdp.SsdpDevice.CustomResponseHeaders
+- uid: Rssdp.SsdpDevice.Services
+  commentId: P:Rssdp.SsdpDevice.Services
+  parent: Rssdp.SsdpDevice
+  isExternal: false
+  name: Services
+  nameWithType: SsdpDevice.Services
+  fullName: Rssdp.SsdpDevice.Services
+- uid: Rssdp.SsdpDevice.AddDevice(Rssdp.SsdpEmbeddedDevice)
+  commentId: M:Rssdp.SsdpDevice.AddDevice(Rssdp.SsdpEmbeddedDevice)
+  parent: Rssdp.SsdpDevice
+  isExternal: false
+  name: AddDevice(SsdpEmbeddedDevice)
+  nameWithType: SsdpDevice.AddDevice(SsdpEmbeddedDevice)
+  fullName: Rssdp.SsdpDevice.AddDevice(Rssdp.SsdpEmbeddedDevice)
+  spec.csharp:
+  - uid: Rssdp.SsdpDevice.AddDevice(Rssdp.SsdpEmbeddedDevice)
+    name: AddDevice
+    nameWithType: SsdpDevice.AddDevice
+    fullName: Rssdp.SsdpDevice.AddDevice
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Rssdp.SsdpEmbeddedDevice
+    name: SsdpEmbeddedDevice
+    nameWithType: SsdpEmbeddedDevice
+    fullName: Rssdp.SsdpEmbeddedDevice
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Rssdp.SsdpDevice.AddDevice(Rssdp.SsdpEmbeddedDevice)
+    name: AddDevice
+    nameWithType: SsdpDevice.AddDevice
+    fullName: Rssdp.SsdpDevice.AddDevice
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Rssdp.SsdpEmbeddedDevice
+    name: SsdpEmbeddedDevice
+    nameWithType: SsdpEmbeddedDevice
+    fullName: Rssdp.SsdpEmbeddedDevice
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Rssdp.SsdpDevice.RemoveDevice(Rssdp.SsdpEmbeddedDevice)
+  commentId: M:Rssdp.SsdpDevice.RemoveDevice(Rssdp.SsdpEmbeddedDevice)
+  parent: Rssdp.SsdpDevice
+  isExternal: false
+  name: RemoveDevice(SsdpEmbeddedDevice)
+  nameWithType: SsdpDevice.RemoveDevice(SsdpEmbeddedDevice)
+  fullName: Rssdp.SsdpDevice.RemoveDevice(Rssdp.SsdpEmbeddedDevice)
+  spec.csharp:
+  - uid: Rssdp.SsdpDevice.RemoveDevice(Rssdp.SsdpEmbeddedDevice)
+    name: RemoveDevice
+    nameWithType: SsdpDevice.RemoveDevice
+    fullName: Rssdp.SsdpDevice.RemoveDevice
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Rssdp.SsdpEmbeddedDevice
+    name: SsdpEmbeddedDevice
+    nameWithType: SsdpEmbeddedDevice
+    fullName: Rssdp.SsdpEmbeddedDevice
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Rssdp.SsdpDevice.RemoveDevice(Rssdp.SsdpEmbeddedDevice)
+    name: RemoveDevice
+    nameWithType: SsdpDevice.RemoveDevice
+    fullName: Rssdp.SsdpDevice.RemoveDevice
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Rssdp.SsdpEmbeddedDevice
+    name: SsdpEmbeddedDevice
+    nameWithType: SsdpEmbeddedDevice
+    fullName: Rssdp.SsdpEmbeddedDevice
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Rssdp.SsdpDevice.OnDeviceAdded(Rssdp.SsdpEmbeddedDevice)
+  commentId: M:Rssdp.SsdpDevice.OnDeviceAdded(Rssdp.SsdpEmbeddedDevice)
+  parent: Rssdp.SsdpDevice
+  isExternal: false
+  name: OnDeviceAdded(SsdpEmbeddedDevice)
+  nameWithType: SsdpDevice.OnDeviceAdded(SsdpEmbeddedDevice)
+  fullName: Rssdp.SsdpDevice.OnDeviceAdded(Rssdp.SsdpEmbeddedDevice)
+  spec.csharp:
+  - uid: Rssdp.SsdpDevice.OnDeviceAdded(Rssdp.SsdpEmbeddedDevice)
+    name: OnDeviceAdded
+    nameWithType: SsdpDevice.OnDeviceAdded
+    fullName: Rssdp.SsdpDevice.OnDeviceAdded
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Rssdp.SsdpEmbeddedDevice
+    name: SsdpEmbeddedDevice
+    nameWithType: SsdpEmbeddedDevice
+    fullName: Rssdp.SsdpEmbeddedDevice
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Rssdp.SsdpDevice.OnDeviceAdded(Rssdp.SsdpEmbeddedDevice)
+    name: OnDeviceAdded
+    nameWithType: SsdpDevice.OnDeviceAdded
+    fullName: Rssdp.SsdpDevice.OnDeviceAdded
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Rssdp.SsdpEmbeddedDevice
+    name: SsdpEmbeddedDevice
+    nameWithType: SsdpEmbeddedDevice
+    fullName: Rssdp.SsdpEmbeddedDevice
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Rssdp.SsdpDevice.OnDeviceRemoved(Rssdp.SsdpEmbeddedDevice)
+  commentId: M:Rssdp.SsdpDevice.OnDeviceRemoved(Rssdp.SsdpEmbeddedDevice)
+  parent: Rssdp.SsdpDevice
+  isExternal: false
+  name: OnDeviceRemoved(SsdpEmbeddedDevice)
+  nameWithType: SsdpDevice.OnDeviceRemoved(SsdpEmbeddedDevice)
+  fullName: Rssdp.SsdpDevice.OnDeviceRemoved(Rssdp.SsdpEmbeddedDevice)
+  spec.csharp:
+  - uid: Rssdp.SsdpDevice.OnDeviceRemoved(Rssdp.SsdpEmbeddedDevice)
+    name: OnDeviceRemoved
+    nameWithType: SsdpDevice.OnDeviceRemoved
+    fullName: Rssdp.SsdpDevice.OnDeviceRemoved
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Rssdp.SsdpEmbeddedDevice
+    name: SsdpEmbeddedDevice
+    nameWithType: SsdpEmbeddedDevice
+    fullName: Rssdp.SsdpEmbeddedDevice
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Rssdp.SsdpDevice.OnDeviceRemoved(Rssdp.SsdpEmbeddedDevice)
+    name: OnDeviceRemoved
+    nameWithType: SsdpDevice.OnDeviceRemoved
+    fullName: Rssdp.SsdpDevice.OnDeviceRemoved
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Rssdp.SsdpEmbeddedDevice
+    name: SsdpEmbeddedDevice
+    nameWithType: SsdpEmbeddedDevice
+    fullName: Rssdp.SsdpEmbeddedDevice
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Rssdp.SsdpDevice.AddService(Rssdp.SsdpService)
+  commentId: M:Rssdp.SsdpDevice.AddService(Rssdp.SsdpService)
+  parent: Rssdp.SsdpDevice
+  isExternal: false
+  name: AddService(SsdpService)
+  nameWithType: SsdpDevice.AddService(SsdpService)
+  fullName: Rssdp.SsdpDevice.AddService(Rssdp.SsdpService)
+  spec.csharp:
+  - uid: Rssdp.SsdpDevice.AddService(Rssdp.SsdpService)
+    name: AddService
+    nameWithType: SsdpDevice.AddService
+    fullName: Rssdp.SsdpDevice.AddService
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Rssdp.SsdpService
+    name: SsdpService
+    nameWithType: SsdpService
+    fullName: Rssdp.SsdpService
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Rssdp.SsdpDevice.AddService(Rssdp.SsdpService)
+    name: AddService
+    nameWithType: SsdpDevice.AddService
+    fullName: Rssdp.SsdpDevice.AddService
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Rssdp.SsdpService
+    name: SsdpService
+    nameWithType: SsdpService
+    fullName: Rssdp.SsdpService
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Rssdp.SsdpDevice.RemoveService(Rssdp.SsdpService)
+  commentId: M:Rssdp.SsdpDevice.RemoveService(Rssdp.SsdpService)
+  parent: Rssdp.SsdpDevice
+  isExternal: false
+  name: RemoveService(SsdpService)
+  nameWithType: SsdpDevice.RemoveService(SsdpService)
+  fullName: Rssdp.SsdpDevice.RemoveService(Rssdp.SsdpService)
+  spec.csharp:
+  - uid: Rssdp.SsdpDevice.RemoveService(Rssdp.SsdpService)
+    name: RemoveService
+    nameWithType: SsdpDevice.RemoveService
+    fullName: Rssdp.SsdpDevice.RemoveService
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Rssdp.SsdpService
+    name: SsdpService
+    nameWithType: SsdpService
+    fullName: Rssdp.SsdpService
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Rssdp.SsdpDevice.RemoveService(Rssdp.SsdpService)
+    name: RemoveService
+    nameWithType: SsdpDevice.RemoveService
+    fullName: Rssdp.SsdpDevice.RemoveService
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Rssdp.SsdpService
+    name: SsdpService
+    nameWithType: SsdpService
+    fullName: Rssdp.SsdpService
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Rssdp.SsdpDevice.OnServiceAdded(Rssdp.SsdpService)
+  commentId: M:Rssdp.SsdpDevice.OnServiceAdded(Rssdp.SsdpService)
+  parent: Rssdp.SsdpDevice
+  isExternal: false
+  name: OnServiceAdded(SsdpService)
+  nameWithType: SsdpDevice.OnServiceAdded(SsdpService)
+  fullName: Rssdp.SsdpDevice.OnServiceAdded(Rssdp.SsdpService)
+  spec.csharp:
+  - uid: Rssdp.SsdpDevice.OnServiceAdded(Rssdp.SsdpService)
+    name: OnServiceAdded
+    nameWithType: SsdpDevice.OnServiceAdded
+    fullName: Rssdp.SsdpDevice.OnServiceAdded
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Rssdp.SsdpService
+    name: SsdpService
+    nameWithType: SsdpService
+    fullName: Rssdp.SsdpService
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Rssdp.SsdpDevice.OnServiceAdded(Rssdp.SsdpService)
+    name: OnServiceAdded
+    nameWithType: SsdpDevice.OnServiceAdded
+    fullName: Rssdp.SsdpDevice.OnServiceAdded
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Rssdp.SsdpService
+    name: SsdpService
+    nameWithType: SsdpService
+    fullName: Rssdp.SsdpService
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Rssdp.SsdpDevice.OnServiceRemoved(Rssdp.SsdpService)
+  commentId: M:Rssdp.SsdpDevice.OnServiceRemoved(Rssdp.SsdpService)
+  parent: Rssdp.SsdpDevice
+  isExternal: false
+  name: OnServiceRemoved(SsdpService)
+  nameWithType: SsdpDevice.OnServiceRemoved(SsdpService)
+  fullName: Rssdp.SsdpDevice.OnServiceRemoved(Rssdp.SsdpService)
+  spec.csharp:
+  - uid: Rssdp.SsdpDevice.OnServiceRemoved(Rssdp.SsdpService)
+    name: OnServiceRemoved
+    nameWithType: SsdpDevice.OnServiceRemoved
+    fullName: Rssdp.SsdpDevice.OnServiceRemoved
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Rssdp.SsdpService
+    name: SsdpService
+    nameWithType: SsdpService
+    fullName: Rssdp.SsdpService
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Rssdp.SsdpDevice.OnServiceRemoved(Rssdp.SsdpService)
+    name: OnServiceRemoved
+    nameWithType: SsdpDevice.OnServiceRemoved
+    fullName: Rssdp.SsdpDevice.OnServiceRemoved
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Rssdp.SsdpService
+    name: SsdpService
+    nameWithType: SsdpService
+    fullName: Rssdp.SsdpService
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Rssdp.SsdpDevice.WriteDeviceDescriptionXml(XmlWriter,Rssdp.SsdpDevice)
+  commentId: M:Rssdp.SsdpDevice.WriteDeviceDescriptionXml(XmlWriter,Rssdp.SsdpDevice)
+  parent: Rssdp.SsdpDevice
+  isExternal: true
+  name: WriteDeviceDescriptionXml(XmlWriter, SsdpDevice)
+  nameWithType: SsdpDevice.WriteDeviceDescriptionXml(XmlWriter, SsdpDevice)
+  fullName: Rssdp.SsdpDevice.WriteDeviceDescriptionXml(XmlWriter, Rssdp.SsdpDevice)
+  spec.csharp:
+  - uid: Rssdp.SsdpDevice.WriteDeviceDescriptionXml(XmlWriter,Rssdp.SsdpDevice)
+    name: WriteDeviceDescriptionXml
+    nameWithType: SsdpDevice.WriteDeviceDescriptionXml
+    fullName: Rssdp.SsdpDevice.WriteDeviceDescriptionXml
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: XmlWriter
+    name: XmlWriter
+    nameWithType: XmlWriter
+    fullName: XmlWriter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Rssdp.SsdpDevice
+    name: SsdpDevice
+    nameWithType: SsdpDevice
+    fullName: Rssdp.SsdpDevice
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Rssdp.SsdpDevice.WriteDeviceDescriptionXml(XmlWriter,Rssdp.SsdpDevice)
+    name: WriteDeviceDescriptionXml
+    nameWithType: SsdpDevice.WriteDeviceDescriptionXml
+    fullName: Rssdp.SsdpDevice.WriteDeviceDescriptionXml
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: XmlWriter
+    name: XmlWriter
+    nameWithType: XmlWriter
+    fullName: XmlWriter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Rssdp.SsdpDevice
+    name: SsdpDevice
+    nameWithType: SsdpDevice
+    fullName: Rssdp.SsdpDevice
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Rssdp.SsdpDevice.StringToUri(System.String)
+  commentId: M:Rssdp.SsdpDevice.StringToUri(System.String)
+  parent: Rssdp.SsdpDevice
+  isExternal: true
+  name: StringToUri(String)
+  nameWithType: SsdpDevice.StringToUri(String)
+  fullName: Rssdp.SsdpDevice.StringToUri(System.String)
+  spec.csharp:
+  - uid: Rssdp.SsdpDevice.StringToUri(System.String)
+    name: StringToUri
+    nameWithType: SsdpDevice.StringToUri
+    fullName: Rssdp.SsdpDevice.StringToUri
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Rssdp.SsdpDevice.StringToUri(System.String)
+    name: StringToUri
+    nameWithType: SsdpDevice.StringToUri
+    fullName: Rssdp.SsdpDevice.StringToUri
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Rssdp
+  commentId: N:Rssdp
+  isExternal: false
+  name: Rssdp
+  nameWithType: Rssdp
+  fullName: Rssdp
+- uid: Rssdp.Shared.SsdpHueBridgeDevice.HttpServerIpAddress*
+  commentId: Overload:Rssdp.Shared.SsdpHueBridgeDevice.HttpServerIpAddress
+  isExternal: false
+  name: HttpServerIpAddress
+  nameWithType: SsdpHueBridgeDevice.HttpServerIpAddress
+  fullName: Rssdp.Shared.SsdpHueBridgeDevice.HttpServerIpAddress
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Rssdp.Shared.SsdpHueBridgeDevice.HttpServerPort*
+  commentId: Overload:Rssdp.Shared.SsdpHueBridgeDevice.HttpServerPort
+  isExternal: false
+  name: HttpServerPort
+  nameWithType: SsdpHueBridgeDevice.HttpServerPort
+  fullName: Rssdp.Shared.SsdpHueBridgeDevice.HttpServerPort
+- uid: Rssdp.Shared.SsdpHueBridgeDevice.HttpServerOptionalSubFolder*
+  commentId: Overload:Rssdp.Shared.SsdpHueBridgeDevice.HttpServerOptionalSubFolder
+  isExternal: false
+  name: HttpServerOptionalSubFolder
+  nameWithType: SsdpHueBridgeDevice.HttpServerOptionalSubFolder
+  fullName: Rssdp.Shared.SsdpHueBridgeDevice.HttpServerOptionalSubFolder
+- uid: Rssdp.Shared.SsdpHueBridgeDevice.MacAddress*
+  commentId: Overload:Rssdp.Shared.SsdpHueBridgeDevice.MacAddress
+  isExternal: false
+  name: MacAddress
+  nameWithType: SsdpHueBridgeDevice.MacAddress
+  fullName: Rssdp.Shared.SsdpHueBridgeDevice.MacAddress
+- uid: Rssdp.Shared.SsdpHueBridgeDevice.HueBridgeId*
+  commentId: Overload:Rssdp.Shared.SsdpHueBridgeDevice.HueBridgeId
+  isExternal: false
+  name: HueBridgeId
+  nameWithType: SsdpHueBridgeDevice.HueBridgeId
+  fullName: Rssdp.Shared.SsdpHueBridgeDevice.HueBridgeId
+- uid: Rssdp.Shared.SsdpHueBridgeDevice.HueSerialNumber*
+  commentId: Overload:Rssdp.Shared.SsdpHueBridgeDevice.HueSerialNumber
+  isExternal: false
+  name: HueSerialNumber
+  nameWithType: SsdpHueBridgeDevice.HueSerialNumber
+  fullName: Rssdp.Shared.SsdpHueBridgeDevice.HueSerialNumber
+- uid: Rssdp.Shared.SsdpHueBridgeDevice.HueUuid*
+  commentId: Overload:Rssdp.Shared.SsdpHueBridgeDevice.HueUuid
+  isExternal: false
+  name: HueUuid
+  nameWithType: SsdpHueBridgeDevice.HueUuid
+  fullName: Rssdp.Shared.SsdpHueBridgeDevice.HueUuid

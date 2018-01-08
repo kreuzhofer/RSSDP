@@ -48,6 +48,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)SsdpDeviceProperty.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SsdpDevicePublisherBase.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SsdpEmbeddedDevice.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SsdpHueBridgeDevice.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SsdpRootDevice.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SsdpService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SsdpStandardsMode.cs" />

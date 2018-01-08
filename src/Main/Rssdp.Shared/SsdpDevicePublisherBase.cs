@@ -1,11 +1,13 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using Rssdp.Shared;
 
 namespace Rssdp.Infrastructure
 {
@@ -557,11 +559,32 @@ USN: {1}
 
 		private void SendSearchResponse(string searchTarget, SsdpDevice device, string uniqueServiceName, UdpEndPoint endPoint)
 		{
-			var rootDevice = device.ToRootDevice();
+			if (device is SsdpHueBridgeDevice)
+			{
+				var hueDevice = device as SsdpHueBridgeDevice;
+				var messageHeader = String.Format(SsdpHueBridgeDevice.HUE_RESPONSE,
+					hueDevice.HttpServerIpAddress,
+					hueDevice.HttpServerPort,
+					hueDevice.HttpServerOptionalSubFolder,
+					hueDevice.HueBridgeId
+				);
+				var message1 = messageHeader + String.Format(SsdpHueBridgeDevice.HUE_ST1, hueDevice.HueUuid);
+				Debug.WriteLine("Sending packet 1: "+message1);
+				var message2 = messageHeader + String.Format(SsdpHueBridgeDevice.HUE_ST2, hueDevice.HueUuid);
+				Debug.WriteLine("Sending packet 2:" + message2);
+				var message3 = messageHeader + String.Format(SsdpHueBridgeDevice.HUE_ST3, hueDevice.HueUuid);
+				Debug.WriteLine("Sending packet 3: " + message3);
+				_CommsServer.SendMessage(Encoding.UTF8.GetBytes(message1), endPoint);
+				_CommsServer.SendMessage(Encoding.UTF8.GetBytes(message2), endPoint);
+				_CommsServer.SendMessage(Encoding.UTF8.GetBytes(message3), endPoint);
+			}
+			else
+			{
+				var rootDevice = device.ToRootDevice();
 
-			var additionalheaders = FormatCustomHeadersForResponse(device);
+				var additionalheaders = FormatCustomHeadersForResponse(device);
 
-			var message = String.Format(DeviceSearchResponseMessageFormat,
+				var message = String.Format(DeviceSearchResponseMessageFormat,
 					CacheControlHeaderFromTimeSpan(rootDevice),
 					searchTarget,
 					uniqueServiceName,
@@ -573,7 +596,8 @@ USN: {1}
 					additionalheaders
 				);
 
-			_CommsServer.SendMessage(System.Text.UTF8Encoding.UTF8.GetBytes(message), endPoint);
+				_CommsServer.SendMessage(System.Text.UTF8Encoding.UTF8.GetBytes(message), endPoint);
+			}
 
 			LogDeviceEventVerbose(String.Format("Sent search response ({0}) to {1}", uniqueServiceName, endPoint.ToString()), device);
 		}

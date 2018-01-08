@@ -21,7 +21,7 @@ items:
   source:
     id: SsdpRootDevice
     path: ''
-    startLine: 7048
+    startLine: 7157
   assemblies:
   - cs.temp.dll
   namespace: Rssdp
@@ -36,6 +36,8 @@ items:
   inheritance:
   - System.Object
   - Rssdp.SsdpDevice
+  derivedClasses:
+  - Rssdp.Shared.SsdpHueBridgeDevice
   inheritedMembers:
   - Rssdp.SsdpDevice.DeviceAdded
   - Rssdp.SsdpDevice.DeviceRemoved
@@ -99,7 +101,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 7062
+    startLine: 7171
   assemblies:
   - cs.temp.dll
   namespace: Rssdp
@@ -127,7 +129,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 7074
+    startLine: 7183
   assemblies:
   - cs.temp.dll
   namespace: Rssdp
@@ -172,7 +174,7 @@ items:
   source:
     id: CacheLifetime
     path: ''
-    startLine: 7097
+    startLine: 7206
   assemblies:
   - cs.temp.dll
   namespace: Rssdp
@@ -206,7 +208,7 @@ items:
   source:
     id: Location
     path: ''
-    startLine: 7105
+    startLine: 7214
   assemblies:
   - cs.temp.dll
   namespace: Rssdp
@@ -239,7 +241,7 @@ items:
   source:
     id: UrlBase
     path: ''
-    startLine: 7114
+    startLine: 7223
   assemblies:
   - cs.temp.dll
   namespace: Rssdp
@@ -273,7 +275,7 @@ items:
   source:
     id: ToDescriptionDocument
     path: ''
-    startLine: 7135
+    startLine: 7244
   assemblies:
   - cs.temp.dll
   namespace: Rssdp
@@ -309,8 +311,18 @@ references:
   fullName: Rssdp.SsdpDevice.Devices
 - uid: Rssdp.SsdpRootDevice.CacheLifetime
   commentId: P:Rssdp.SsdpRootDevice.CacheLifetime
+  parent: Rssdp.SsdpRootDevice
+  isExternal: false
+  name: CacheLifetime
+  nameWithType: SsdpRootDevice.CacheLifetime
+  fullName: Rssdp.SsdpRootDevice.CacheLifetime
 - uid: Rssdp.SsdpRootDevice.Location
   commentId: P:Rssdp.SsdpRootDevice.Location
+  parent: Rssdp.SsdpRootDevice
+  isExternal: false
+  name: Location
+  nameWithType: SsdpRootDevice.Location
+  fullName: Rssdp.SsdpRootDevice.Location
 - uid: Rssdp
   commentId: N:Rssdp
   isExternal: false
@@ -1159,6 +1171,13 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: Rssdp.SsdpRootDevice
+  commentId: T:Rssdp.SsdpRootDevice
+  parent: Rssdp
+  isExternal: false
+  name: SsdpRootDevice
+  nameWithType: SsdpRootDevice
+  fullName: Rssdp.SsdpRootDevice
 - uid: System
   commentId: N:System
   isExternal: false

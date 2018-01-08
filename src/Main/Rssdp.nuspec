@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <id>Rssdp</id>
-    <version>3.5.8</version>
-    <title>Rssdp</title>
-    <authors>Troy Willmot</authors>
+    <id>Rssdp_beta</id>
+    <version>3.5.16</version>
+    <title>Rssdp_beta</title>
+    <authors>Troy Willmot, Daniel Kreuzhofer</authors>
     <owners>Yortw</owners>
     <licenseUrl>https://github.com/Yortw/RSSDP/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/Yortw/RSSDP</projectUrl>
@@ -23,20 +23,6 @@
         <dependency id="Microsoft.Bcl.Build" version="1.0.21" />
       </group>
       <group targetFramework=".NetFramework4.5">
-      </group>
-      <group targetFramework="monoandroid">
-      </group>
-      <group targetFramework="Xamarin.iOS10">
-      </group>
-      <group targetFramework="WindowsPhone8">
-        <dependency id="Microsoft.Net.Http" version="2.2.29" />
-        <dependency id="Microsoft.Bcl.Async" version="1.0.168" />
-        <dependency id="Microsoft.Bcl.Build" version="1.0.21" />
-      </group>
-      <group targetFramework="WindowsPhoneApp8.1">
-        <dependency id="Microsoft.Net.Http" version="2.2.29" />
-        <dependency id="Microsoft.Bcl.Async" version="1.0.168" />
-        <dependency id="Microsoft.Bcl.Build" version="1.0.21" />
       </group>
       <group targetFramework=".NETStandard1.3">
         <dependency id="System.Collections" version="4.0.11" />
@@ -81,9 +67,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="lib\monoandroid\Rssdp*.dll" target="lib\monoandroid" />
-    <file src="lib\monoandroid\Rssdp*.xml" target="lib\monoandroid" />
-    <file src="lib\monoandroid\Rssdp*.pdb" target="lib\monoandroid" />
     <file src="lib\net40\Rssdp*.dll" target="lib\net40" />
     <file src="lib\net40\Rssdp*.xml" target="lib\net40" />
     <file src="lib\net40\Rssdp*.pdb" target="lib\net40" />
@@ -102,15 +85,9 @@
     <file src="lib\portable-net45+win+wpa81+wp80\Rssdp*.dll" target="lib\portable-net45+win+wpa81+wp80" />
     <file src="lib\portable-net45+win+wpa81+wp80\Rssdp*.xml" target="lib\portable-net45+win+wpa81+wp80" />
     <file src="lib\portable-net45+win+wpa81+wp80\Rssdp*.pdb" target="lib\portable-net45+win+wpa81+wp80" />
-    <file src="lib\wp8\Rssdp*.dll" target="lib\wp8" />
-    <file src="lib\wp8\Rssdp*.xml" target="lib\wp8" />
-    <file src="lib\wp8\Rssdp*.pdb" target="lib\wp8" />
     <file src="lib\netstandard13\Rssdp*.dll" target="lib\uap10.0" />
     <file src="lib\netstandard13\Rssdp*.xml" target="lib\uap10.0" />
     <file src="lib\netstandard13\Rssdp*.pdb" target="lib\uap10.0" />
-    <file src="lib\Xamarin.iOS10\Rssdp*.dll" target="lib\Xamarin.iOS10" />
-    <file src="lib\Xamarin.iOS10\Rssdp*.xml" target="lib\Xamarin.iOS10" />
-    <file src="lib\Xamarin.iOS10\Rssdp*.pdb" target="lib\Xamarin.iOS10" />
     <file src="**\*.cs" target="src" />
   </files>
 </package>

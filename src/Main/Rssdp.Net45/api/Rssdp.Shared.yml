@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Rssdp.Shared
+  commentId: N:Rssdp.Shared
+  id: Rssdp.Shared
+  children:
+  - Rssdp.Shared.SsdpHueBridgeDevice
+  langs:
+  - csharp
+  - vb
+  name: Rssdp.Shared
+  nameWithType: Rssdp.Shared
+  fullName: Rssdp.Shared
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Rssdp.Shared.SsdpHueBridgeDevice
+  commentId: T:Rssdp.Shared.SsdpHueBridgeDevice
+  isExternal: false
+  name: SsdpHueBridgeDevice
+  nameWithType: SsdpHueBridgeDevice
+  fullName: Rssdp.Shared.SsdpHueBridgeDevice

@@ -104,3 +104,8 @@
     name: UdpEndPoint
   - uid: Rssdp.Infrastructure.Upnp10DeviceValidator
     name: Upnp10DeviceValidator
+- uid: Rssdp.Shared
+  name: Rssdp.Shared
+  items:
+  - uid: Rssdp.Shared.SsdpHueBridgeDevice
+    name: SsdpHueBridgeDevice

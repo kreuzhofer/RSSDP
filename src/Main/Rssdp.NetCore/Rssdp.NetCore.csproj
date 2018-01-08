@@ -21,11 +21,11 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>..\lib\netstandard13\</OutputPath>
     <DefineConstants>TRACE;DEBUG;CODE_ANALYSIS;NETSTANDARD;NETSTANDARD1_3;CODE_ANALYSIS</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Debug\Rssdp.xml</DocumentationFile>
+    <DocumentationFile>..\lib\netstandard13\Rssdp.XML</DocumentationFile>
     <RunCodeAnalysis>true</RunCodeAnalysis>
     <CodeAnalysisRuleSet>..\RssdpRuleset.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
